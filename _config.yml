@@ -96,7 +96,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia-plus
+theme: hexo-theme-yilia-plus
+# theme: yilia-plus
 # theme: landscape
 
 # Deployment
