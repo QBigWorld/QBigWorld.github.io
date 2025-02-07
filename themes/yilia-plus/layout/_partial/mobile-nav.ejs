@@ -4,7 +4,7 @@
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
-	<div class="intrude-less">
+	<div class="intrude-less" style="background-color: white;">
 		<header id="header" class="inner">
 			<div class="profilepic">
 				<a href="<%- url_for('/') %>">
@@ -31,7 +31,7 @@
 				</div>
 			</nav>
 
-			<nav class="header-menu js-header-menu">
+			<nav class="header-menu js-header-menu" style="padding-bottom: 1em;">
 				<ul style="width: <%= ulWidth %>">
 				<% var divide = 100 / count + '%'; %>
 				<% for (var i in theme.menu){ %>

@@ -6,7 +6,7 @@ menu:
 
 # subNav-子导航
 subNav:
-  # github: "#"
+  github: "https://github.com/QBigWorld"
   gitee: "https://gitee.com/qqinpenghui" # 码云
   # jianshu: "#" #简书
   # cnblog: "#"
@@ -215,7 +215,7 @@ activate_power_mode:
 
 # 飘雪特效
 # https://github.com/MlgmXyysd/snow.js
-snow: true
+snow: false
 
 # 看板娘动态模型插件
 ## https://github.com/JoeyBling/live2d-widget.js
@@ -239,11 +239,11 @@ live2d:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header: '#FFFAE8'
-  # header: '#4d4d4d'
+  # header: '#FFFAE8'
+  header: '#4d4d4d'
   gif:
     # 是否启用左侧边栏动态图效果
-    enable: true
+    enable: false
     # 自定义背景图路径(默认可以不设置，提供默认背景图)
     # path: /img/biubiubiu.gif
   # 右滑板块背景
